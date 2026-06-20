@@ -1,0 +1,16 @@
+import React from 'react'
+import LeftContent from './LeftContent'
+import RightContent from './RightContent'
+
+function PageContant() {
+  return (
+    <>
+    <div className='px-18 flex items-center gap-10 py-10 h-[90vh] '>
+        <LeftContent/>
+        <RightContent/>
+    </div>
+    </>
+  )
+}
+
+export default PageContant
