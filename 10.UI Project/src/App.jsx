@@ -18,12 +18,17 @@ function App() {
     img:"https://images.unsplash.com/photo-1684327596702-6bbbe1422375?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8", 
     intro:"", 
     tag:"Underbanked",
+  },
+    {
+    img:"https://images.unsplash.com/photo-1684327596702-6bbbe1422375?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8", 
+    intro:"", 
+    tag:"Underbanked",
   }
  ]
 
   return (
   <>
- <Section1/>
+ <Section1 users={users}/>
  <Section2/>
   </>
   )
